@@ -1,0 +1,44 @@
+body, html {
+	height: 100%; /*always set the height and width to 100% */
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 { 
+	font-size: 	3rem;
+	color: white;
+}
+button {
+	transition: all 2s;
+}
+.buffer {
+	height: 10rem;
+}
+.btn{
+	background-color: orange;
+	border-color: 	orange;
+
+}
+.btn-primary:hover {
+	background-color: 	#ee4b08;
+	border-color: 	#ee4b08;
+	transform: scale(1.05);
+
+}
+
+.btn-whatevs { 
+	font-weight: 700;
+	padding: 1rem 2rem;
+	border-radius: 	300px;
+	text-transform: uppercase;
+}
+hr {
+	border-color: 	orange;
+	border-width: 	3px;
+	max-width: 	100px;
+}
